@@ -1,3 +1,5 @@
+trigger: none
+
 schedules:
 - cron: "* * * * *"
   displayName: every minute
