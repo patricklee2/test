@@ -1,5 +1,3 @@
-trigger: none
-
 schedules:
 - cron: "* * * * *"
   displayName: every hour build
