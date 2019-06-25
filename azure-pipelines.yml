@@ -1,11 +1,11 @@
 schedules:
-- cron: "* * * * *"
-  displayName: every hour build
+- cron: '* * * * *'
+  displayName: Run build each 10min
   branches:
     include:
-    - dev
     - master
-  always: true
+    - dev
+  always: 'true'
 
 
 pool:
