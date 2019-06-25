@@ -2,11 +2,13 @@ trigger: none
 
 schedules:
 - cron: "* * * * *"
-  displayName: every minute
+  displayName: every hour build
   branches:
     include:
-    - master
     - dev
+    - master
+  always: "true"
+
 
 pool:
   vmImage: 'ubuntu-latest'
