@@ -7,7 +7,7 @@ schedules:
     include:
     - dev
     - master
-  always: "true"
+  always: true
 
 
 pool:
